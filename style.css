@@ -1,0 +1,124 @@
+body {
+   margin: 0;
+   font-family: 'Arimo', sans-serif;
+   color: lightslategray;
+}
+
+h1 {
+   font-size: 62px;
+   font-weight: bolder;
+}
+
+p {
+   font-size: 20px;
+}
+
+h2 {
+   font-size: 43px;
+}
+
+.orange {
+   color: rgb(245, 181, 18);
+}
+
+.header {
+   background-image: url(images/shapes/Frame\ 56.jpg);
+   background-repeat: no-repeat;
+   background-position: right;
+}
+
+.container {
+   display: flex;
+   width: 80%;
+   margin: auto;
+}
+
+.half-width {
+   width: 50%;
+   padding-left: 5%;
+   margin: 100px auto;
+}
+
+.half-width img {
+   width: 80%;
+}
+
+.top {
+   margin-top: 150px;
+   margin-left: 100px;
+}
+
+.half-width a {
+   text-decoration: none;
+   background-image: linear-gradient(rgb(225, 208, 18), orangered);
+   color: whitesmoke;
+   padding: 14px 40px;
+   border-radius: 25px; 
+}
+
+.half-width p {
+   margin-bottom: 60px;
+}
+
+.about-me {
+   background-image: url(images/shapes/Frame\ 58.jpg);
+   background-repeat: no-repeat;
+   background-size: 100% 100%;
+}
+
+#align {
+   display: block;
+   text-align: center;
+   width: 47%;
+   margin: 80px auto 20px;
+
+}
+
+.left, .right {
+   box-shadow: 10px 10px 30px lightgray;
+   border-radius: 40px;
+   padding: 2%;
+   margin: 4%;
+}
+
+.left img, 
+.right img {
+   width: 100%;
+}
+
+#subscription {
+   margin: 100px auto;
+   box-shadow: 10px 10px 30px lightgray;
+   border-radius: 40px;
+   color: #000;
+}
+
+.first, 
+.second,
+.third {
+   margin: 3.5% 9%;
+}
+.b {
+   color: #000;
+}
+
+.gray {
+   color: lightslategrey;
+}
+footer {
+   margin: 0;
+   background: #000;
+   color: whitesmoke;
+   text-align: center;
+}
+
+footer h2 {
+   padding: 40px;
+}
+
+footer p {
+   padding-bottom: 150px;
+   margin-bottom: 0;
+}
+
+
